@@ -1,8 +1,8 @@
-name: "Issue Label Manager (Node 20)"
+name: "Issue Label Manager (Node 24)"
 description: "Will update repo's labels based on data in JSON file located at $REPO/.github/labels.json"
 author: "DesarrolloORT"
 runs:
-  using: node20
+  using: node24
   main: dist/index.js
 branding:
   icon: "upload"
